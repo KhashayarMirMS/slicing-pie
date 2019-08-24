@@ -1,0 +1,64 @@
+<html>
+
+    {% include head.html%}
+
+    <body>
+        <div class="pure-g">
+            <div class="center-g pure-u-1 pure-u-sm-1 pure-u-md-2-3 pure-u-lg-1-2 pure-u-xl-2-5">
+
+                <div class="pure-g">
+
+                    <img class="pure-u-1-1 pure-img center-img" src="/assets/img/logo.png" />
+                    <span class="pure-u-1-1 big-title">{{page.bigTitle}}</span>
+                    <span class="pure-u-1-1 little-title">{{page.littleTitle}}</span>
+                    <span class="pure-u-1-1 tiny-title">
+                        <a href={{page.authorLink}} target="_blank">
+                            {{page.author}}
+                        </a>
+                    </span>
+                    <span class="pure-u-1-1 tiny-title">
+                        <a href={{page.translatorLink}} target="_blank">
+                            {{page.translator}}
+                        </a>
+                    </span>
+                    <hr class="pure-u-1-1" />
+
+                    {% for preChapters in site.preChapters %}
+                    <div class=" pure-u-1-1">
+                        <h2>
+                            <a href="{{preChapters.url}}">
+                                {{preChapters.title}}
+                            </a>
+                        </h2>
+                    </div>
+                    {% endfor %}
+                    <hr class="pure-u-1-1" />
+
+                    {% for chapter in site.chapters %}
+                    <div class="pure-u-1-1">
+                        <h1>
+                            {{chapter.chapterId}}
+                        </h1>
+                        <h2>
+                            <a href="{{chapter.url}}"> {{chapter.title}}</a>
+                        </h2>
+
+                        <hr />
+                    </div>
+                    {% endfor %}
+
+                    {% for postChapters in site.postChapters %}
+                    <div class="pure-u-1-1">
+                        <h2>
+                            <a href="{{postChapters.url}}"> {{postChapters.title}}</a>
+                        </h2>
+                    </div>
+                    {% endfor %}
+
+                    {% include footer.html %}
+                </div>
+            </div>
+        </div>
+    </body>
+
+</html>

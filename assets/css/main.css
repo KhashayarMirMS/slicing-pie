@@ -1,0 +1,59 @@
+@import url(style.css);
+
+body {
+    background-color: white
+}
+
+.pure-g [class*=pure-u] {
+    font-family: iransansdn;
+}
+
+.center-img {
+    width: unset;
+    height: 250px;
+}
+
+.big-title {
+    font-size: 5em
+}
+
+.little-title {
+    font-size: 3em
+}
+
+.tiny-title {
+    font-size: 2em
+}
+
+.center-g {
+    margin: 0 auto;
+    padding: 10px;
+}
+
+a {
+    color: #b51518;
+    text-decoration: none
+}
+
+hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+    border-top: 2px dashed;
+}
+
+.next {
+    text-align: left;
+}
+
+.prev {
+    text-align: right;
+}
+
+p {
+    font-size: 1.3em
+}
+
+.content {
+    margin-top: 100px
+}
