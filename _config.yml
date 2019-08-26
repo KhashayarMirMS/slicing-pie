@@ -31,10 +31,16 @@ github_username: jekyll
 
 collections:
   preChapters:
+    index: 1
+    name: "بخش یکم"
     output: true
   chapters:
+    index: 2
+    name: "بخش دوم"
     output: true
   postChapters:
+    index: 3
+    name: "بخش سوم"
     output: true
 
 # Build settings

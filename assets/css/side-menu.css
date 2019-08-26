@@ -1,20 +1,24 @@
+:root {
+    --width: 200px
+}
+
 #menu,
 .menu-link {
     transition: all 0.2s ease-out;
 }
 
 #layout.active #menu {
-    right: 300px;
-    width: 300px;
+    right: var(--width);
+    width: var(--width);
 }
 
 #layout.active .menu-link {
-    right: 300px;
+    right: var(--width);
 }
 
 #menu {
-    margin-right: -300px;
-    width: 300px;
+    margin-right: calc(-1*var(--width));
+    width: var(--width);
     position: fixed;
     top: 0;
     right: 0;
@@ -76,10 +80,36 @@
 @media (min-width: 64em) {
 
     #menu {
-        right: 300px;
+        right: var(--width);
     }
 
     .menu-link {
         display: none;
     }
+}
+
+.current {
+    color: #b51518;
+    cursor: default;
+}
+
+.pure-menu-link {
+    display: inline-block;
+}
+
+.pure-menu-link:hover {
+    background: unset;
+}
+
+.pure-menu-link:not(.current):hover {
+    color: black
+}
+
+.pure-menu-heading {
+    color: black;
+    font-weight: bold
+}
+
+.pure-menu-item {
+    margin-right: 20px
 }
