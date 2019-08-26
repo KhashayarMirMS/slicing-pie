@@ -2,7 +2,7 @@
 
 <html>
 
-    {% include head.html%}
+    {% include head.html %}
 
     <body>
         <div class="pure-g">
@@ -24,39 +24,25 @@
                             {{ page.translator }}
                         </a>
                     </span>
-                    <hr class="pure-u-1-1" />
 
-                    {% for preChapters in site.preChapters %}
-                    <div class=" pure-u-1-1">
+
+                    {% assign sorted = site.collections | sort: 'index' %}
+                    {% for collection in sorted %}
+                    <div class="pure-u-1-1">
+                        <h1>{{ collection.name }}</h1>
+                    </div>
+                    {% for link in site[collection.label] %}
+                    <div class="pure-u-1-1">
+                        <h1>{{ link.chapterId }}</h1>
+                    </div>
+                    <div class="pure-u-1-1">
                         <h2>
-                            <a href="{{ site.url }}{{ site.baseurl }}{{ preChapters.url }}">
-                                {{ preChapters.title }}
+                            <a href="{{ site.url }}{{ site.baseurl }}{{ link.url }}">
+                                {{ link.title }}
                             </a>
                         </h2>
                     </div>
                     {% endfor %}
-                    <hr class="pure-u-1-1" />
-
-                    {% for chapter in site.chapters %}
-                    <div class="pure-u-1-1">
-                        <h1>
-                            {{ chapter.chapterId }}
-                        </h1>
-                        <h2>
-                            <a href="{{ site.url }}{{ site.baseurl }}{{ chapter.url }}"> {{ chapter.title }}</a>
-                        </h2>
-
-                        <hr />
-                    </div>
-                    {% endfor %}
-
-                    {% for postChapters in site.postChapters %}
-                    <div class="pure-u-1-1">
-                        <h2>
-                            <a href="{{ site.url }}{{ site.baseurl }}{{ postChapters.url }}">
-                                {{ postChapters.title }}</a>
-                        </h2>
-                    </div>
                     {% endfor %}
 
                     {% include footer.html %}
