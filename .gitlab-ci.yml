@@ -1,10 +1,9 @@
-image: ruby:2.4.0
+image: ruby:2.4
 
 # the 'pages' job will deploy and build your site to the 'public' path
 pages:
   stage: deploy
   script:
-    - gem install bundler -v 1.17.3
     - bundle install
     - bundle exec jekyll build -d public
   artifacts:
