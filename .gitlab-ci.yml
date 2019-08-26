@@ -1,4 +1,3 @@
-# requiring the environment of Ruby 2.3.x
 image: ruby:2.4.0
 
 # the 'pages' job will deploy and build your site to the 'public' path
