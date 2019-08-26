@@ -8,7 +8,7 @@
 
                 <div class="pure-g">
 
-                    <img class="pure-u-1-1 pure-img center-img" src="{{ site.baseurl }}/assets/img/logo.png" />
+                    <img class="pure-u-1-1 pure-img center-img" src="{{ '/assets/img/logo.png'  | absolute_url}}" />
                     <span class="pure-u-1-1 big-title">{{ page.bigTitle }}</span>
                     <span class="pure-u-1-1 little-title">{{ page.littleTitle }}</span>
                     <span class="pure-u-1-1 tiny-title">
@@ -26,7 +26,7 @@
                     {% for preChapters in site.preChapters %}
                     <div class=" pure-u-1-1">
                         <h2>
-                            <a href="{{ preChapters.url }}">
+                            <a href="{{ preChapters.url | absolute_url }}">
                                 {{ preChapters.title }}
                             </a>
                         </h2>
@@ -40,7 +40,7 @@
                             {{ chapter.chapterId }}
                         </h1>
                         <h2>
-                            <a href="{{ chapter.url }}"> {{ chapter.title }}</a>
+                            <a href="{{ chapter.url | absolute_url }}"> {{ chapter.title }}</a>
                         </h2>
 
                         <hr />
@@ -50,7 +50,7 @@
                     {% for postChapters in site.postChapters %}
                     <div class="pure-u-1-1">
                         <h2>
-                            <a href="{{ postChapters.url }}"> {{ postChapters.title }}</a>
+                            <a href="{{ postChapters.url | absolute_url }}"> {{ postChapters.title }}</a>
                         </h2>
                     </div>
                     {% endfor %}

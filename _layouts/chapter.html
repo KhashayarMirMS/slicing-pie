@@ -35,7 +35,7 @@
                     <div class="prev pure-u-1-2">
                         {% if prev %}
                         <h2>
-                            <a href="{{ prev.url}}">&lt; {{ prev.title }}</a>
+                            <a href="{{ prev.url | absolute_url }}">&lt; {{ prev.title }}</a>
                         </h2>
                         {% endif %}
                     </div>
@@ -44,7 +44,7 @@
                     <div class="next pure-u-1-2">
                         {% if next %}
                         <h2>
-                            <a href="{{ next.url}}">{{ next.title }} &gt;</a>
+                            <a href="{{ next.url | absolute_url }}">{{ next.title }} &gt;</a>
                         </h2>
                         {% endif %}
                     </div>
