@@ -8,17 +8,17 @@
 
                 <div class="pure-g">
 
-                    <img class="pure-u-1-1 pure-img center-img" src="/assets/img/logo.png" />
-                    <span class="pure-u-1-1 big-title">{{page.bigTitle}}</span>
-                    <span class="pure-u-1-1 little-title">{{page.littleTitle}}</span>
+                    <img class="pure-u-1-1 pure-img center-img" src="{{ site.baseurl }}/assets/img/logo.png" />
+                    <span class="pure-u-1-1 big-title">{{ page.bigTitle }}</span>
+                    <span class="pure-u-1-1 little-title">{{ page.littleTitle }}</span>
                     <span class="pure-u-1-1 tiny-title">
-                        <a href={{page.authorLink}} target="_blank">
-                            {{page.author}}
+                        <a href={{ page.authorLink }} target="_blank">
+                            {{ page.author }}
                         </a>
                     </span>
                     <span class="pure-u-1-1 tiny-title">
-                        <a href={{page.translatorLink}} target="_blank">
-                            {{page.translator}}
+                        <a href={{ page.translatorLink }} target="_blank">
+                            {{ page.translator }}
                         </a>
                     </span>
                     <hr class="pure-u-1-1" />
@@ -26,8 +26,8 @@
                     {% for preChapters in site.preChapters %}
                     <div class=" pure-u-1-1">
                         <h2>
-                            <a href="{{preChapters.url}}">
-                                {{preChapters.title}}
+                            <a href="{{ preChapters.url }}">
+                                {{ preChapters.title }}
                             </a>
                         </h2>
                     </div>
@@ -37,10 +37,10 @@
                     {% for chapter in site.chapters %}
                     <div class="pure-u-1-1">
                         <h1>
-                            {{chapter.chapterId}}
+                            {{ chapter.chapterId }}
                         </h1>
                         <h2>
-                            <a href="{{chapter.url}}"> {{chapter.title}}</a>
+                            <a href="{{ chapter.url }}"> {{ chapter.title }}</a>
                         </h2>
 
                         <hr />
@@ -50,7 +50,7 @@
                     {% for postChapters in site.postChapters %}
                     <div class="pure-u-1-1">
                         <h2>
-                            <a href="{{postChapters.url}}"> {{postChapters.title}}</a>
+                            <a href="{{ postChapters.url }}"> {{ postChapters.title }}</a>
                         </h2>
                     </div>
                     {% endfor %}
