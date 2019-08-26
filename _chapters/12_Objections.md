@@ -3,5 +3,5 @@ layout: chapter
 
 chapterId: فصل ۱۲
 title: مخالفت‌ها
-permalink: Chapter12
+permalink: /Chapter12
 ---

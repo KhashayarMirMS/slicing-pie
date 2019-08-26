@@ -3,5 +3,5 @@ layout: chapter
 
 chapterId: فصل ۴
 title: چهارچوب تخصیص
-permalink: Chapter04
+permalink: /Chapter04
 ---

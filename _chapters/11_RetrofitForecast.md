@@ -3,5 +3,5 @@ layout: chapter
 
 chapterId: فصل ۱۱
 title: تکمیل / پیش‌بینی
-permalink: Chapter11
+permalink: /Chapter11
 ---

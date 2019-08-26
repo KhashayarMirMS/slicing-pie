@@ -2,5 +2,5 @@
 layout: chapter
 
 title: درباره‌ی نویسنده
-permalink: AboutTheAuthor
+permalink: /AboutTheAuthor
 ---

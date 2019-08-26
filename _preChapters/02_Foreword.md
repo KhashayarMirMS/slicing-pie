@@ -2,5 +2,5 @@
 layout: chapter
 
 title: پیش‌گفتار
-permalink: foreword
+permalink: /foreword
 ---

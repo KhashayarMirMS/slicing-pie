@@ -2,5 +2,5 @@
 layout: chapter
 
 title: نمایه
-permalink: Index
+permalink: /Index
 ---

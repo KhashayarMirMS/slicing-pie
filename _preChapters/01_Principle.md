@@ -2,7 +2,7 @@
 layout: chapter
 
 title: اصول
-permalink: principle
+permalink: /principle
 ---
 
 # اصل برش کیک

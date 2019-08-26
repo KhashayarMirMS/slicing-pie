@@ -2,5 +2,5 @@
 layout: chapter
 
 title: ضمیمه
-permalink: Appendix
+permalink: /Appendix
 ---
