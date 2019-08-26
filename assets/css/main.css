@@ -14,7 +14,8 @@ body {
 }
 
 .big-title {
-    font-size: 5em
+    font-size: 5em;
+    font-weight: 900;
 }
 
 .little-title {
@@ -57,3 +58,7 @@ p {
 .content {
     margin-top: 100px
 }
+
+/* .pure-menu-item {
+    height: auto;
+} */
