@@ -1,5 +1,5 @@
 :root {
-    --width: 200px
+    --width: 200px;
 }
 
 #menu,
@@ -17,16 +17,17 @@
 }
 
 #menu {
-    margin-right: calc(-1*var(--width));
+    margin-right: calc(-1 * var(--width));
     width: var(--width);
     position: fixed;
     top: 0;
     right: 0;
     bottom: 0;
     z-index: 1000;
-    /* background: rgba(255, 255, 255, .9); */
+    background: white;
+    box-shadow: 0px 0 6px 1px rgba(0, 0, 0, 0.2);
     overflow-y: auto;
-    scrollbar-width: 0
+    scrollbar-width: 0;
 }
 
 #menu .pure-menu,
@@ -78,7 +79,6 @@
 }
 
 @media (min-width: 64em) {
-
     #menu {
         right: var(--width);
     }
@@ -102,14 +102,14 @@
 }
 
 .pure-menu-link:not(.current):hover {
-    color: black
+    color: black;
 }
 
 .pure-menu-heading {
     color: black;
-    font-weight: bold
+    font-weight: bold;
 }
 
 .pure-menu-item {
-    margin-right: 20px
+    margin-right: 20px;
 }
