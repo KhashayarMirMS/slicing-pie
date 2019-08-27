@@ -65,3 +65,17 @@ p {
     text-align: center;
     vertical-align: middle;
 }
+
+blockquote {
+    border-color: #b51518;
+}
+
+blockquote strong {
+    color: #b51518;
+    display: block;
+    font-weight: bold;
+}
+
+blockquote * {
+    font-weight: normal;
+}
