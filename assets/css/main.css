@@ -83,3 +83,7 @@ blockquote strong {
 blockquote * {
     font-weight: normal;
 }
+
+span.mord.text {
+    font-family: dana;
+}
