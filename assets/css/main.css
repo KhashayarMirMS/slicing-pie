@@ -60,6 +60,10 @@ p {
     text-align: justify;
 }
 
+.pure-table {
+    margin: auto;
+}
+
 .pure-table,
 .pure-table * {
     text-align: center;
