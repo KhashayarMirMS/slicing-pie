@@ -52,13 +52,16 @@ hr {
 }
 
 p {
-    font-size: 1.3em
+    font-size: 1.3em;
 }
 
 .content {
-    margin-top: 100px
+    margin-top: 100px;
+    text-align: justify;
 }
 
-/* .pure-menu-item {
-    height: auto;
-} */
+.pure-table,
+.pure-table * {
+    text-align: center;
+    vertical-align: middle;
+}
