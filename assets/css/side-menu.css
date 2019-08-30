@@ -1,5 +1,5 @@
 :root {
-    --width: 220px;
+    --width: 400px;
 }
 
 #menu,
@@ -78,7 +78,7 @@
     content: " ";
 }
 
-@media (min-width: 64em) {
+/* @media (min-width: 64em) {
     #menu {
         right: var(--width);
     }
@@ -86,7 +86,7 @@
     .menu-link {
         display: none;
     }
-}
+} */
 
 .current {
     color: #b51518;
@@ -112,4 +112,8 @@
 
 .pure-menu-item {
     margin-right: 20px;
+}
+
+.internalLink {
+    border-right: 2px solid #b51518;
 }
