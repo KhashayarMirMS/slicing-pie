@@ -95,6 +95,10 @@
 
 .pure-menu-link {
     display: inline-block;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    max-width: 300px;
 }
 
 .pure-menu-link:hover {

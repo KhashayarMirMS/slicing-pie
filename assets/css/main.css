@@ -92,3 +92,8 @@ ol li {
     list-style-type: persian;
     font-size: 1.3em;
 }
+
+.img-responsive {
+    display: block;
+    margin: auto
+}

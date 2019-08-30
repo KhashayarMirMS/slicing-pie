@@ -117,7 +117,7 @@
             <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
                 integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8=" crossorigin="anonymous"></script>
             <script>
-                $('h1,h2,h3,h4,h5,h6').filter('[id]').each(function () {
+                $('h2,h3,h4,h5,h6').filter('[id]').each(function () {
                     const factor = parseInt($(this)[0].localName[1]);
                     const padding = factor * 10;
                     console.log(factor)
