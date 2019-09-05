@@ -6,6 +6,8 @@ title: آشنایی با برش کیک
 permalink: /Chapter01
 ---
 
+![pie!]({{ site.url }}{{site.baseurl}}/assets/img/SlicedPie-01.png){:class="img-responsive"}
+
 # فصل یکم: آشنایی با مدل برش کیک
 
 ماموریت من در زندگی اطمینان از این است که هر کارآفرینی در این دنیا به آنچه سزاوار است از شرکت خود دست یابد.

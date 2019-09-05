@@ -19,10 +19,10 @@ permalink: /AboutTheAuthor
 - نینجا را شکست بده - درباره‌ی انجام یک ارائه‌ی خوب
 - نمایش تجاری سامورایی - نحوه‌ی کسب تسلط بیش‌تر و بیش‌تر در نمایش بعدی‌تان
 
-![برش کیک]({{ site.url }}{{site.baseurl}}/assets/img/books1.png){:class="img-responsive"}
+![برش کیک]({{ site.url }}{{site.baseurl}}/assets/img/books1.png){:class="img-responsive-third"}
 
-![نینجا را شکست بده]({{ site.url }}{{site.baseurl}}/assets/img/books.png){:class="img-responsive"}
+![نینجا را شکست بده]({{ site.url }}{{site.baseurl}}/assets/img/books.png){:class="img-responsive-third"}
 
-![نمایش تجاری سامورایی]({{ site.url }}{{site.baseurl}}/assets/img/books2.png){:class="img-responsive"}
+![نمایش تجاری سامورایی]({{ site.url }}{{site.baseurl}}/assets/img/books2.png){:class="img-responsive-third"}
 
 همچنین مایک نویسنده **افراد را مجذوب کنید**، نحوه‌ی ترغیب افراد به آنچه شما می‌خواهید، ویژگی‌های والدین موفق، و اصول کسب‌وکار است.

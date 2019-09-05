@@ -56,7 +56,6 @@ p {
 }
 
 .content {
-    margin-top: 100px;
     text-align: justify;
 }
 
@@ -94,6 +93,13 @@ ol li {
 }
 
 .img-responsive {
+    width: 100%;
+    display: block;
+    margin: auto
+}
+
+.img-responsive-third {
+    width: 50%;
     display: block;
     margin: auto
 }
