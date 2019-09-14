@@ -5,3 +5,4 @@ _site
 vendor
 /public
 .DS_Store
+deploy/__pycache__/fabfile.cpython-36.pyc
