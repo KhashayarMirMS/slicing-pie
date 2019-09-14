@@ -9,4 +9,7 @@ authorLink: https://slicingpie.com/
 
 translator: ترجمه‌ی شهاب حشمت
 translatorLink: https://darskakaoo.ir/
+
+editor: ویرایشِ مهدی خسروی
+editorLink: https://mahdikhosravi.com/
 ---
