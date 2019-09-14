@@ -103,3 +103,35 @@ ol li {
     display: block;
     margin: auto
 }
+
+form {
+    border: black dashed;
+    padding: 10px;
+}
+
+form input {
+    display: block;
+    float: right;
+    width: 100%;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    line-height: 42px;
+    box-shadow: none;
+}
+
+form button {
+    width: 100%;
+    color: #FFFFFF;
+    background-color: #333333;
+    display: inline-block;
+    white-space: nowrap;
+    line-height: 42px;
+    cursor: pointer;
+    border: 1px;
+    border-radius: 4px;
+}
+
+.powered-by {
+    text-align: center
+}
