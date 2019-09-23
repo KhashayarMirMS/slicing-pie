@@ -135,3 +135,12 @@ form button {
 .powered-by {
     text-align: center
 }
+
+.katex-display>.katex {
+    white-space: unset !important
+}
+
+.katex-display>.katex>.katex-html {
+    overflow-x: auto;
+    overflow-wrap: break-word
+}

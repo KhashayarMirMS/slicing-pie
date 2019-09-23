@@ -1,5 +1,5 @@
 :root {
-    --width: 400px;
+    --width: 250px;
 }
 
 #menu,
@@ -98,7 +98,7 @@
     white-space: nowrap;
     text-overflow: ellipsis;
     overflow: hidden;
-    max-width: 300px;
+    max-width: 150px;
 }
 
 .pure-menu-link:hover {
