@@ -8,8 +8,8 @@ author: نوشته‌ی مایک مویر
 authorLink: https://slicingpie.com/
 
 translator: ترجمه‌ی شهاب حشمت
-translatorLink: https://darskakaoo.ir/
+translatorLink: https://www.linkedin.com/in/shahab-heshmat/
 
 editor: ویرایشِ مهدی خسروی
-editorLink: https://mahdikhosravi.com/
+editorLink: https://www.linkedin.com/in/khosi/
 ---
